@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title> </title>
+		<script>
+		
+			function facteur()
+			{
+				return prompt("facteur");
+			}
+			table();
+			function table()
+			{
+				var table = facteur();
+				var tableau = [];
+				var i = 1;
+				var rep;
+				
+				while(i <= table)
+				{
+					tableau.push(i);
+					i++;
+				}	
+				
+				for (i = 0; i <= tableau.length-1 ; i++){
+					rep = tableau[i] * table;
+					document.write(tableau[i] + " * " + table + " = " + rep + "<br/>");
+				}
+			}
+				
+				
+			
+			
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
